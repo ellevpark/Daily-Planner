@@ -11,5 +11,12 @@ div.col-sm-1 {
     background-color: aliceblue;
     }
 div.col-sm-10 {
- background-color: gray; 
+    background-color: gray; 
+}
+hr {
+    color: beige;
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+    border: 0em;
 }
