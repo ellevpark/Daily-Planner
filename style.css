@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+div.row {
+    height: 60px;
+}
+div.col-sm-1 {
+    background-color: aliceblue;
+    }
+div.col-sm-10 {
+ background-color: gray; 
+}
