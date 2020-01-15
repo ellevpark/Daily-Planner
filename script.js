@@ -21,17 +21,16 @@ for (var i=0; i < workTime.length; i++){
     saveCol.attr ("data-time", workTime[i]);
     timeCol.text (workTime[i]);
 
-    if (parseInt(currentTime.val) === parseInt(militaryTime[i])){
+    if (parseInt(currentTime) === parseInt(militaryTime[i])){
         console.log ("its a match!");
-        $(".row").style("background-color", "light pink");
+        $(".row").css("background-color", "light pink");
     }
-    else if (parseInt(currentTime.val) <= parseInt(militaryTime[i])){
+    else if (parseInt(currentTime) <= parseInt(militaryTime[i])){
         console.log ("this is the past");
-        $(".row").style("background-color", "gray");
     }
-    else if (parseInt(currentTime.val) >= parseInt(militaryTime[i])){
+    else if (parseInt(currentTime) >= parseInt(militaryTime[i])){
         console.log ("this is the future");
-        $(".row").style("background-color", "yellow");
+
     }
   
     timeRow.append(timeCol, taskCol, saveCol);
