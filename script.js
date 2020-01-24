@@ -14,7 +14,7 @@ for (var i=0; i < workTime.length; i++){
     var timeRow = $("<div>").addClass("row");
     var timeCol = $("<div>").addClass("col-sm-1 time").text(workTime[i]);
     var taskCol = $("<textarea>").addClass("col-sm-10 task");
-    var saveCol = $("<button>").addClass("col-sm-1 save").prepend($("<img>",{id: "saveIcon", src: "/Users/ellenpark/Downloads/icons8-save-100.png"}));
+    var saveCol = $("<button>").addClass("col-sm-1 save").prepend($("<img>",{id: "saveIcon", src: "https://img.icons8.com/dusk/64/000000/save.png"}));
     var toDo = localStorage.getItem(workTime[i]);
     taskCol.val(toDo);
     saveCol.attr ("data-time", workTime[i]);
